@@ -1,0 +1,48 @@
+* {
+    maring:0;
+    padding: 0;
+    box-sizeing: border-box;
+  }
+  
+  canvas{
+    position: absolute;
+    background: black;
+  }
+  
+  .generate--tree-button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    z-index: 10;
+    left: 50%;
+    rigth: 50%;
+    transform: transalte(-50%,0);
+    padding: 20px 30px;
+    border-radius: 50%;
+    background: brown;
+    color: black;
+    font-size: 20px;
+    width: 300px;
+    overflow: hidden;
+  }
+
+  .download-btn{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: absolute;
+    bottom: 5%;
+    z-index: 10;
+    left: 80%; 
+    transform: transalte(-10%,0);
+    padding: 20px 30px;
+    border-radius: 50%;
+    background: grey;
+    color: black;
+    font-size: 20px;
+    width: 150px;
+    overflow: hidden;
+  }
